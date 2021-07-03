@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --watch --verbose --host 0.0.0.0",
+    "start": "ng serve --watch --verbose --host 0.0.0.0 --port 4222",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1000.1",
-    "@angular/cli": "~10.0.1",
+    "@angular/cli": "^10.0.8",
     "@angular/compiler-cli": "~10.0.2",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
